@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Appliance" verbose ="1" >
+    <test name="Toaster">
+        <classes>
+            <class name="api.appliance.ToasterTest">
+                <methods>
+                    <include name ="testStart"></include>
+                    <include name ="testStop"></include>
+                    <include name ="testTurnOn"></include>
+                    <include name ="testTurnOff"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
